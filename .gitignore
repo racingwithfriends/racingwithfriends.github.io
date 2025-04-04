@@ -172,3 +172,10 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Pelican directories
+cache/
+output/
+
+# OSX
+*.DS_Store
