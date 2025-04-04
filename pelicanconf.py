@@ -27,5 +27,17 @@ SOCIAL = (
 
 DEFAULT_PAGINATION = False
 
+STATIC_PATHS = [
+    'images',
+    'static'
+]
+EXTRA_PATH_METADATA = {
+    'static/CNAME': {'path': 'CNAME'},
+}
+TEMPLATE_PAGES = {
+    # Custom 404 page for GitHub pages.
+    '404.html': '404.html',
+}
+
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
